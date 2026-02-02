@@ -1,4 +1,4 @@
-# Assignment 3: Login Form (Option 1)
+# React Login Form
 
 This project will use the following:
 
