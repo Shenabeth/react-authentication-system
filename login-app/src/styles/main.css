@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@400&display=swap');
+
+html, body {
+  background-color: #2D2D2D;
+  color: #DCDCDC;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  margin: 0;
+  min-height: 650px;
+  padding: 0;
+}
+
+p {
+  color: #E0E0E0;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+/* Default Continer */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Top Header */
+.header {
+  align-items: center;
+  background-color: #161616;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: left;
+  left: 0;
+  padding: 10px 30px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Webpage Icon */
+.favicon {
+  height: 60px;
+  margin-right: 10px;
+  width: 60px;
+}
+
+/* Content Container */
+.content {
+  align-items: center;
+  background-color: #161616;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 200px auto 20px;
+  max-height: calc(100vh - 160px);
+  padding: 30px;
+  width: 40vh;
+}
+
+/* Username and Password Labels */
+label {
+  color: #B0B0B0;
+  display: block;
+  font-size: small;
+  margin: 10px 0;
+  text-align: left;
+}
+
+/* Username and Password Input Boxes */
+input {
+  background-color: #2D2D2D;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #ebebeb;
+  display: block;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: left;
+  width: calc(100% - 20px);
+}
+
+.password-container {
+  position: relative;
+}
+
+/* Password Eye Button */
+.eye-button {
+  background: none;
+  border: none;
+  color: #DCDCDC;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+/* Default Button */
+button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: Raleway;
+  font-weight: 500;
+  margin-top: 5px;
+  padding: 10px 20px;
+}
+
+/* Sign In and Sign Up Buttons */
+.button-submit {
+  background-color: #0f4aaa;
+  margin: 30px auto 10px;
+  display: block;
+  width: 100%;
+}
+
+.button-submit:hover {
+  background-color: #0d3c86;
+}
+
+.button-submit:active {
+  background-color: #0d3c86;
+}
+
+.button-submit:disabled {
+  background-color: #0f4aaa;
+}
+
+/* Hyperlink Style */
+.hyper-link {
+  color: #366fca;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.hyper-link:hover {
+  color: #295bad;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+/* Secure Page Log Out Button */
+.button-logout {
+  background-color: #b62d1d;
+  display: block;
+  margin: 30px auto 10px;
+  width: 100%;
+}
+
+.button-logout:hover {
+  background-color: #941f12;
+}
+
+.button-logout:active {
+  background-color: #7e1f15;
+}
+
+.button-logout:disabled {
+  background-color: #b62d1d;
+}
