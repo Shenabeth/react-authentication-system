@@ -8,9 +8,9 @@ This project demonstrates a balance of performance, scalability, and ease of use
 - **Database:** MySQL
 	- Reliable and has widespread support for managing relational data
 
-The front-end will be hosted on localhost 3000.
-The back-end will be hosted on localhost 5000.
-The default port for MySQL workbench should be 3306.
+The front-end will be hosted on localhost 3000.<br>
+The back-end will be hosted on localhost 5000.<br>
+The default port for MySQL workbench should be 3306.<br>
 
 You may change ports and other credentials in the app code and database if necessary.
 1. ```cd login-app```
