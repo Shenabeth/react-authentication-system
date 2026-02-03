@@ -1,10 +1,27 @@
 # React Login Form
 
-This project will use the following:
+This project demonstrates a balance of performance, scalability, and ease of use:
+- **Server side:** NodeJS
+	- Efficient handling of concurrent requests
+- **Client-side:** ReactJS
+	- Simplifies the development of dynamic and interactive user interfaces
+- **Database:** MySQL
+	- Reliable and has widespread support for managing relational data
 
- - Server side: NodeJS
- - Client-side: ReactJS
- - Database: MySQL
+The front-end will be hosted on localhost 3000.
+The back-end will be hosted on localhost 5000.
+The default port for MySQL workbench should be 3306.
+
+You may change ports and other credentials in the app code and database if necessary.
+1. ```cd login-app```
+2. Open ```server.js``` in VS Code or an IDE of your choosing.
+3. Lines 13, 18, and 27 have port numbers hardcoded. This is where you can change ports to fit your needs.
+4. ```cd ..```
+5. Open ```.env``` in VS Code or an IDE of your choosing.
+6. You may change ports as well as other credentials here.
+
+<br>
+
 
 ## Set Up Node.JS
 
